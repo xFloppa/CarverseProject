@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Animazione di entrata per il body */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.navbar-center {
+    margin-bottom: 30px;
+}
+
+.navbar-image {
+    width: 300px; /* Dimensione logo */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #ddd;
+}
+
+h1 {
+    color: gold;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    animation: slideUp 1s ease-out;
+}
+
+/* Animazione per il titolo */
+@keyframes slideUp {
+    0% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h2 {
+    color: gold;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.btn {
+    padding: 15px 30px;  /* Ridotto il padding per ridurre la dimensione del bottone */
+    font-size: 1.2rem;  /* Ridotto la dimensione del font */
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid gold;
+    color: gold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+}
+
+.btn:hover {
+    background-color: gold;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.8);
+}
+
+.btn:active {
+    transform: scale(1.02);
+}
+
+/* Animazione per la comparsa dei bottoni */
+.btn-wrapper {
+    animation: fadeInButtons 1s ease-out;
+}
+
+@keyframes fadeInButtons {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

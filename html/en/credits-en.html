@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Carverse | Mechanics</title>
+    <link rel="stylesheet" href="../../assets/engine/style/css/main.css">
+    <link rel="stylesheet" href="../../assets/engine/style/css/credits2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffd900;
+        }
+
+        .crediti-container {
+            text-align: center;
+            background: #ffd900;
+            padding: 50px 30px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        .crediti-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #ffd900;
+            text-shadow:
+                -1px -1px 0 #000,
+                /* Ombra in alto a sinistra */
+                1px -1px 0 #000,
+                /* Ombra in alto a destra */
+                -1px 1px 0 #000,
+                /* Ombra in basso a sinistra */
+                1px 1px 0 #000;
+            /* Ombra in basso a destra */
+        }
+
+
+        .crediti-nomi {
+            font-size: 16px;
+            color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="website-loading-screen website-loading-screen--hidden"><img class="website-loading-video"
+            src="./assets/engine/style/grapichs/animated/gif/loading.gif" alt="">
+    </div>
+
+    <div class="video-sfondo">
+        <video autoplay muted loop id="video-sfondo">
+            <source src="../../assets/engine/style/grapichs/background/background-final.mp4">
+        </video>
+    </div>
+
+    <!--  
+    <video id="video-sfondo" autoplay muted loop>
+        <source src="./videos/IVSOQM_GT-Ferrari_Gamma_Copertina_Short_WOJVWN-4300.m3u8" type="application/x-mpegURL">
+        Il tuo browser non supporta i video HTML5.
+    </video>
+      -->
+
+    <div class="navbar">
+        <button class="navbar-left" onclick="location.href='../index-choose.html';">
+            <div class="navbar-left-content">
+                <span class="navbar-text">MENU</span>
+                <span class="navbar-text">MENU</span>
+            </div>
+        </button>
+
+        <a class="navbar-center" href="../index-choose.html">
+            <div class="navbar-center"><img src="../../assets/engine/style/grapichs/logo/logo-final.png"
+                    class="navbar-image" alt=""></div>
+        </a>
+
+        <button class="navbar-right">
+            <div class="navbar-right-content"><span class="navbar-text">CREDITS</span><span
+                    class="navbar-text">CREDITS</span></div>
+        </button>
+
+        <button class="navbar-right" onclick="changeLanguage()">
+            <div class="navbar-right-content">
+                <span class="navbar-text" id="current-lang">ITA</span>
+                <span class="navbar-text">EN</span>
+            </div>
+        </button>
+
+    </div>
+
+    <div class="crediti-container">
+        <div class="crediti-title">Carverse - Authors of the project</div>
+        <div class="crediti-nomi">**************** | xFloppa</div>
+    </div>
+
+
+    <!--
+    <div class="one-content-logos">
+        <div class="rfm-marquee-container "
+            style="--pause-on-hover: running; --pause-on-click: running; --width: 100%; --transform: none;">
+            <div class="rfm-marquee"
+                style="--play: running; --direction: normal; --duration: 38.4s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;">
+                <div class="rfm-initial-child-container">
+                    <div class="rfm-child" style="--transform: none;">
+                        <div class="marquee-row"><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/audi.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/bmw.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/ferrari.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/fiat.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/mercedes.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/tesla.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/toyota.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/volswagen.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="rfm-marquee"
+                style="--play: running; --direction: normal; --duration: 38.4s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;">
+                <div class="rfm-child" style="--transform: none;">
+                    <div class="marquee-row"><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/audi.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/bmw.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/ferrari.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/fiat.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/mercedes.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/tesla.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/toyota.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/volswagen.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script>
+        const video = document.getElementById('video-sfondo');
+        const videoSrc = './videos/IVSOQM_GT-Ferrari_Gamma_Copertina_Short_WOJVWN-4300.m3u8';
+
+        if (Hls.isSupported()) {
+            const hls = new Hls();
+            hls.loadSource(videoSrc);
+            hls.attachMedia(video);
+            hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                video.play();
+            });
+        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            video.src = videoSrc;
+            video.addEventListener('loadedmetadata', function () {
+                video.play();
+            });
+        }
+    </script>
+    -->
+
+    <script>
+        function changeLanguage() {
+            var currentLang = document.getElementById('current-lang').innerText;
+            if (currentLang === 'ITA') {
+                window.location.href = '../ita/credits-it.html';
+            } else {
+                window.location.href = '../ita/credits-it.html';
+            }
+        }
+    </script>
+
+</body>
+
+</html>

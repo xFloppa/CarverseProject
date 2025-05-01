@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Carverse | Mechanics</title>
+    <link rel="stylesheet" href="../../assets/engine/style/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="../../assets/engine/style/grapichs/icon/test.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="website-loading-screen website-loading-screen--hidden"><img class="website-loading-video"
+            src="../../assets/engine/style/grapichs/animated/gif/loading.gif" alt="">
+    </div>
+
+    <div class="video-sfondo">
+        <video autoplay muted loop id="video-sfondo">
+            <source src="../../assets/engine/style/grapichs/background/background-final.mp4">
+        </video>
+    </div>
+
+    <!--  
+    <video id="video-sfondo" autoplay muted loop>
+        <source src="./videos/IVSOQM_GT-Ferrari_Gamma_Copertina_Short_WOJVWN-4300.m3u8" type="application/x-mpegURL">
+        Il tuo browser non supporta i video HTML5.
+    </video>
+      -->
+
+    <div class="navbar">
+        <button class="navbar-left" onclick="location.href='../index-choose.html';">
+            <div class="navbar-left-content">
+                <span class="navbar-text">MENU</span>
+                <span class="navbar-text">MENU</span>
+            </div>
+        </button>
+
+        <a class="navbar-center" href="../index-choose.html">
+            <div class="navbar-center"><img src="./assets/engine/style/grapichs/logo/logo-final.png"
+                    class="navbar-image" alt=""></div>
+        </a>
+
+        <button class="navbar-right" onclick="location.href='./credits-en.html';">
+            <div class="navbar-right-content">
+                <span class="navbar-text">CREDITS</span>
+                <span class="navbar-text">CREDITS</span>
+            </div>
+        </button>
+
+        <a href="../ita/index-it.html" class="navbar-right">
+            <button>
+                <div class="navbar-right-content">
+                    <span class="navbar-text" id="current-lang">ITA</span>
+                    <span class="navbar-text">EN</span>
+                </div>
+            </button>
+        </a>
+    </div>
+
+
+    <div class="one-content">
+        <div class="one-content-left">
+            <h1 class="one-headline"
+                style="translate: none; rotate: none; scale: none; transform-origin: 50% 100%; opacity: 1; transform: perspective(500px);">
+                <div
+                    style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                    Carverse Mechanics
+                </div>
+            </h1>
+            <p class="one-description" style="opacity: 1;">Advanced digital technologies to tell the story e
+                the evolution of cars and engines.</p>
+            <div class="one-content-buttons">
+                <button class="one-button-transparent" style="opacity: 1;">
+                    <div class="navbar-left-content"><span class="navbar-text">EXPLORE MORE</span>
+                        <span class="navbar-text">EXPLORE MORE</span>
+                    </div>
+                    <div class="navbar-arrow-box"><i class="fa-solid fa-location-arrow"></i></div>
+                </button>
+
+                <button class="one-button" style="opacity: 1;">
+                    <div class="navbar-left-content"><span class="navbar-text">CONTACTS</span>
+
+                        <span class="navbar-text">CONTACTS
+                        </span>
+                    </div>
+                    <div class="navbar-arrow-box"><i class="fa-solid fa-location-arrow"></i></div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <section class="popular-brands-section">
+        <h2 class="section-title">Popular Brands</h2>
+        <div class="brand-popular">
+            <!-- Scheda 1 - Ferrari -->
+            <a href="../ita/brands/brand-ferrari.html" class="brand-card-link">
+                <div class="brand-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/it/0/04/Logo_della_Ferrari_S.p.A..svg" alt="Ferrari"
+                        height="80">
+                    <h3>Ferrari</h3>
+                    <p>Ferrari is one of the most iconic brands in the world of supercars, with models that offer power,
+                        elegance and exceptional performance.</p>
+                    <span class="yt-link"># YT</span>
+                </div>
+            </a>
+
+            <!-- Scheda 2 - Lamborghini -->
+            <div class="brand-card">
+                <img src="https://upload.wikimedia.org/wikipedia/it/0/02/Logo_della_Lamborghini.svg" alt="Lamborghini"
+                    height="80">
+                <h3>Lamborghini</h3>
+                <p>Lamborghini cars are synonymous with speed, futuristic design and a unique driving experience.</p>
+                <a class="yt-link" href="https://youtube.com"># YT</a>
+            </div>
+
+            <!-- Scheda 3 - Porsche -->
+            <div class="brand-card">
+                <img src="https://upload.wikimedia.org/wikipedia/it/a/a1/Logo_della_Porsche.svg" alt="Porsche"
+                    height="80">
+                <h3>Porsche</h3>
+                <p>Porsche is a luxury brand that combines performance and precision in every model, with a long
+                    racing tradition.</p>
+                <a class="yt-link" href="https://youtube.com"># YT</a>
+            </div>
+
+            <!-- Scheda 4 - Bugatti -->
+            <div class="brand-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Bugatti_Logo.png" alt="Bugatti"
+                    height="80">
+                <h3>Bugatti</h3>
+                <p>Bugatti is famous for producing the fastest cars in the world, offering extraordinary performance and a
+                    exclusive luxury.</p>
+                <a class="yt-link" href="https://youtube.com"># YT</a>
+            </div>
+
+            <!-- Scheda 5 - Chevrolet -->
+            <div class="brand-card">
+                <img src="../../assets/engine/style/grapichs/icon/chevrolet.png" alt="Chevrolet"
+                    height="100">
+                <h3>Chevrolet</h3>
+                <p>Chevrolet is known for producing rugged and affordable vehicles, with a lineup ranging from
+                    sports cars to SUVs and trucks.</p>
+                <a class="yt-link" href="https://youtube.com"># YT</a>
+            </div>
+
+            <!-- Scheda 6 - Aston Martin -->
+            <div class="brand-card">
+                <img src="https://upload.wikimedia.org/wikipedia/it/5/5b/Logo_della_Aston_Martin.svg" alt="Aston Martin"
+                    height="100">
+                <h3>Aston Martin</h3>
+                <p>Aston Martin is famous for its elegant sports cars, where craftsmanship and performance are
+                    meet perfectly.</p>
+                <a class="yt-link" href="https://youtube.com"># YT</a>
+            </div>
+
+            <!-- Scheda 7 - Pagani -->
+            <div class="brand-card">
+                <img src="https://upload.wikimedia.org/wikipedia/it/8/8f/Pagani.png" alt="Pagani" height="80">
+                <h3>Pagani</h3>
+                <p>Pagani creates extraordinary cars with incredible design and killer performance, creating
+                    one-of-a-kind specimens.</p>
+                <a class="yt-link" href="https://youtube.com"># YT</a>
+            </div>
+
+            <!-- Scheda 8 - BMW -->
+            <div class="brand-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/BMW_logo_%28gray%29.svg" alt="BMW" height="80">
+                <h3>BMW</h3>
+                <p>BMW is synonymous with luxury and innovation, with a wide assortment of models that combine comfort,
+                    performance and design.</p>
+                <a class="yt-link" href="https://youtube.com"># YT</a>
+            </div>
+
+            <!-- Scheda 9 - Lotus -->
+            <div class="brand-card">
+                <img src="https://upload.wikimedia.org/wikipedia/it/e/e8/Logo_della_Lotus.svg" alt="Lotus" height="80">
+                <h3>Lotus</h3>
+                <p>Lotus is known for its incredible lightness and cars that offer a pure driving experience
+                    and dynamic.</p>
+                <a class="yt-link" href="https://youtube.com"># YT</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="test-drive" class="test-drive-section">
+        <h2>Test Drive Virtual</h2>
+        <p class="intro-text">Discover the performance of each car as if you were behind the wheel. Click on the model for an interactive test drive.</p>
+      
+        <div class="car-selection">
+          <div class="car-card" data-car="ferrari">
+            <div class="car-image">
+              <img src="https://via.placeholder.com/200x150" alt="Ferrari Test Drive">
+            </div>
+            <h3>Ferrari F8 Tributo</h3>
+            <p>Scopri la potenza e l'eleganza della Ferrari F8, con un motore V8 che ti farà battere il cuore.</p>
+          </div>
+          <div class="car-card" data-car="lamborghini">
+            <div class="car-image">
+              <img src="https://via.placeholder.com/200x150" alt="Lamborghini Test Drive">
+            </div>
+            <h3>Lamborghini Huracán</h3>
+            <p>Un'auto che unisce performance straordinarie e design audace. Scopri la Huracán in azione.</p>
+          </div>
+          <div class="car-card" data-car="mclaren">
+            <div class="car-image">
+              <img src="https://via.placeholder.com/200x150" alt="McLaren Test Drive">
+            </div>
+            <h3>McLaren 720S</h3>
+            <p>Performance straordinarie e tecnologia all'avanguardia. Scopri la McLaren 720S.</p>
+          </div>
+        </div>
+      
+        <div class="test-video">
+          <h3>Test Drive in Azione</h3>
+          <p>Clicca su una delle auto sopra per vedere il test drive in azione.</p>
+          <div id="video-container">
+            <iframe id="test-video-frame" src="https://www.youtube.com/watch?v=0TxFP98sku8 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+
+    <!--
+    <div class="one-content-logos">
+        <div class="rfm-marquee-container "
+            style="--pause-on-hover: running; --pause-on-click: running; --width: 100%; --transform: none;">
+            <div class="rfm-marquee"
+                style="--play: running; --direction: normal; --duration: 38.4s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;">
+                <div class="rfm-initial-child-container">
+                    <div class="rfm-child" style="--transform: none;">
+                        <div class="marquee-row"><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/audi.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/bmw.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/ferrari.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/fiat.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/mercedes.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/tesla.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/toyota.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/volswagen.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="rfm-marquee"
+                style="--play: running; --direction: normal; --duration: 38.4s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;">
+                <div class="rfm-child" style="--transform: none;">
+                    <div class="marquee-row"><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/audi.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/bmw.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/ferrari.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/fiat.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/mercedes.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/tesla.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/toyota.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/volswagen.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script>
+        const video = document.getElementById('video-sfondo');
+        const videoSrc = './videos/IVSOQM_GT-Ferrari_Gamma_Copertina_Short_WOJVWN-4300.m3u8';
+
+        if (Hls.isSupported()) {
+            const hls = new Hls();
+            hls.loadSource(videoSrc);
+            hls.attachMedia(video);
+            hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                video.play();
+            });
+        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            video.src = videoSrc;
+            video.addEventListener('loadedmetadata', function () {
+                video.play();
+            });
+        }
+    </script>
+    -->
+
+    <script src="../../assets/engine/javascript/language_function.js"></script>
+
+</body>
+
+</html>

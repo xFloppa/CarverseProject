@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Carverse | Mechanics</title>
+    <link rel="stylesheet" href="../../assets/engine/style/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="website-loading-screen website-loading-screen--hidden"><img class="website-loading-video"
+            src="../../assets/engine/style/grapichs/animated/gif/loading.gif" alt="">
+    </div>
+
+    <div class="video-sfondo">
+        <video autoplay muted loop id="video-sfondo">
+            <source src="../../assets/engine/style/grapichs/background/background-final.mp4">
+        </video>
+    </div>
+
+    <!--  
+    <video id="video-sfondo" autoplay muted loop>
+        <source src="./videos/IVSOQM_GT-Ferrari_Gamma_Copertina_Short_WOJVWN-4300.m3u8" type="application/x-mpegURL">
+        Il tuo browser non supporta i video HTML5.
+    </video>
+      -->
+
+    <div class="navbar">
+        <button class="navbar-left" onclick="location.href='../index-choose.html';">
+            <div class="navbar-left-content">
+                <span class="navbar-text">MENU</span>
+                <span class="navbar-text">MENU</span>
+            </div>
+        </button>
+
+        <a class="navbar-center" href="../index-choose.html">
+            <div class="navbar-center"><img src="../assets/engine/style/grapichs/logo/logo-final.png"
+                    class="navbar-image" alt=""></div>
+        </a>
+
+        <button class="navbar-right" onclick="location.href='./credits-it.html';">
+            <div class="navbar-right-content">
+                <span class="navbar-text">CREDITI</span>
+                <span class="navbar-text">CREDITI</span>
+            </div>
+        </button>
+
+        <a href="../en/index-en.html" class="navbar-right">
+            <button>
+                <div class="navbar-right-content">
+                    <span class="navbar-text" id="current-lang">ITA</span>
+                    <span class="navbar-text">EN</span>
+                </div>
+            </button>
+        </a>
+
+    </div>
+
+
+    <div class="one-content">
+        <div class="one-content-left">
+            <h1 class="one-headline"
+                style="translate: none; rotate: none; scale: none; transform-origin: 50% 100%; opacity: 1; transform: perspective(500px);">
+                <div
+                    style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+                    Carverse Mechanics
+                </div>
+            </h1>
+            <p class="one-description" style="opacity: 1;">Tecnologie digitali avanzate per raccontare la storia e
+                l'evoluzione delle automobili e dei motori.</p>
+            <div class="one-content-buttons">
+                <button class="one-button-transparent" style="opacity: 1;">
+                    <div class="navbar-left-content"><span class="navbar-text">ESPLORA DI PIÙ</span><span
+                            class="navbar-text">ESPLORA DI PIÙ</span></div>
+                    <div class="navbar-arrow-box"><i class="fa-solid fa-location-arrow"></i></div>
+                </button>
+
+                <button class="one-button" style="opacity: 1;">
+                    <div class="navbar-left-content"><span class="navbar-text">CONTATTO </span>
+
+                        <span class="navbar-text">CONTATTO
+                        </span>
+                    </div>
+                    <div class="navbar-arrow-box"><i class="fa-solid fa-location-arrow"></i></div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <section class="popular-brands-section">
+        <h2 class="section-title">Brand Popolari</h2>
+        <div class="brand-popular">
+            <!-- Scheda 1 - Ferrari -->
+            <a href="../ita/brands/brand-ferrari.html" class="brand-card-link">
+                <div class="brand-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/it/0/04/Logo_della_Ferrari_S.p.A..svg"
+                        alt="Ferrari" height="80">
+                    <h3>Ferrari</h3>
+                    <p>Ferrari è uno dei brand più iconici nel mondo delle supercar, con modelli che offrono potenza,
+                        eleganza e prestazioni eccezionali.</p>
+                    <span class="yt-link"># YT</span>
+                </div>
+            </a>
+
+            <!-- Scheda 2 - Lamborghini -->
+            <a href="../ita/brands/brand-lamborghini.html" class="brand-card-link">
+                <div class="brand-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/it/0/02/Logo_della_Lamborghini.svg"
+                        alt="Lamborghini" height="80">
+                    <h3>Lamborghini</h3>
+                    <p>Le auto Lamborghini sono sinonimo di velocità, design futuristico e un'esperienza di guida unica.
+                    </p>
+                    <span class="yt-link"># YT</span>
+                </div>
+            </a>
+
+            <!-- Scheda 3 - Porsche -->
+            <a href="../ita/brands/brand-porsche.html" class="brand-card-link">
+                <div class="brand-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/it/a/a1/Logo_della_Porsche.svg" alt="Porsche"
+                        height="80">
+                    <h3>Porsche</h3>
+                    <p>Porsche è un marchio di lusso che unisce performance e precisione in ogni modello, con una lunga
+                        tradizione nelle corse.</p>
+                    <span class="yt-link"># YT</span>
+                </div>
+            </a>
+
+            <!-- Scheda 4 - Bugatti -->
+            <a href="../ita/brands/brand-bugatti.html" class="brand-card-link">
+                <div class="brand-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Bugatti_Logo.png" alt="Bugatti"
+                    height="80">
+                <h3>Bugatti</h3>
+                <p>Bugatti è famoso per produrre le auto più veloci del mondo, offrendo prestazioni straordinarie e un
+                    lusso esclusivo.</p>
+                    <span class="yt-link"># YT</span>
+                </div>
+            </a>
+
+            <!-- Scheda 5 - Chevrolet -->
+            <a href="../ita/brands/brand-chevrolet.html" class="brand-card-link">
+                <div class="brand-card">
+                    <img src="../../assets/engine/style/grapichs/icon/chevrolet.png" alt="Chevrolet" height="100">
+                <h3>Chevrolet</h3>
+                <p>Chevrolet è conosciuta per produrre veicoli robusti e accessibili, con una gamma che spazia dalle
+                    auto sportive ai SUV e camion.</p>
+                    <span class="yt-link"># YT</span>
+                </div>
+            </a>
+
+            <!-- Scheda 6 - Aston Martin -->
+            <a href="../ita/brands/brand-astonmartin.html" class="brand-card-link">
+                <div class="brand-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/it/5/5b/Logo_della_Aston_Martin.svg" alt="Aston Martin"
+                    height="100">
+                <h3>Aston Martin</h3>
+                <p>Aston Martin è famosa per le sue auto sportive eleganti, dove l'artigianalità e le prestazioni si
+                    incontrano alla perfezione.</p>
+                    <span class="yt-link"># YT</span>
+                </div>
+            </a>
+
+            <!-- Scheda 7 - Pagani -->
+            <a href="../ita/brands/brand-pagani.html" class="brand-card-link">
+                <div class="brand-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/it/8/8f/Pagani.png" alt="Pagani" height="80">
+                <h3>Pagani</h3>
+                <p>Pagani crea automobili straordinarie con un design incredibile e prestazioni da urlo, creando
+                    esemplari unici nel loro genere.</p>
+                    <span class="yt-link"># YT</span>
+                </div>
+            </a>
+
+            <!-- Scheda 8 - BMW -->
+            <div class="brand-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/BMW_logo_%28gray%29.svg" alt="BMW"
+                    height="80">
+                <h3>BMW</h3>
+                <p>BMW è sinonimo di lusso e innovazione, con un ampio assortimento di modelli che uniscono comfort,
+                    prestazioni e design.</p>
+                <a class="yt-link" href="https://youtube.com"># YT</a>
+            </div>
+
+            <!-- Scheda 9 - Lotus -->
+            <div class="brand-card">
+                <img src="https://upload.wikimedia.org/wikipedia/it/e/e8/Logo_della_Lotus.svg" alt="Lotus" height="80">
+                <h3>Lotus</h3>
+                <p>Lotus è noto per la sua incredibile leggerezza e per le auto che offrono un'esperienza di guida pure
+                    e dinamica.</p>
+                <a class="yt-link" href="https://youtube.com"># YT</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="test-drive" class="test-drive-section">
+        <h2>Test Drive Virtuale</h2>
+        <p class="intro-text">Scopri le performance di ogni auto come se fossi al volante. Clicca sul modello per un
+            test drive interattivo.</p>
+
+        <div class="car-selection">
+            <div class="car-card" data-car="ferrari">
+                <div class="car-image">
+                    <img src="https://via.placeholder.com/200x150" alt="Ferrari Test Drive">
+                </div>
+                <h3>Ferrari F8 Tributo</h3>
+                <p>Scopri la potenza e l'eleganza della Ferrari F8, con un motore V8 che ti farà battere il cuore.</p>
+            </div>
+            <div class="car-card" data-car="lamborghini">
+                <div class="car-image">
+                    <img src="https://via.placeholder.com/200x150" alt="Lamborghini Test Drive">
+                </div>
+                <h3>Lamborghini Huracán</h3>
+                <p>Un'auto che unisce performance straordinarie e design audace. Scopri la Huracán in azione.</p>
+            </div>
+            <div class="car-card" data-car="mclaren">
+                <div class="car-image">
+                    <img src="https://via.placeholder.com/200x150" alt="McLaren Test Drive">
+                </div>
+                <h3>McLaren 720S</h3>
+                <p>Performance straordinarie e tecnologia all'avanguardia. Scopri la McLaren 720S.</p>
+            </div>
+        </div>
+
+        <div class="test-video">
+            <h3>Test Drive in Azione</h3>
+            <p>Clicca su una delle auto sopra per vedere il test drive in azione.</p>
+            <div id="video-container">
+                <iframe id="test-video-frame" src="https://www.youtube.com/watch?v=0TxFP98sku8 frameborder=" 0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <!--
+    <div class="one-content-logos">
+        <div class="rfm-marquee-container "
+            style="--pause-on-hover: running; --pause-on-click: running; --width: 100%; --transform: none;">
+            <div class="rfm-marquee"
+                style="--play: running; --direction: normal; --duration: 38.4s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;">
+                <div class="rfm-initial-child-container">
+                    <div class="rfm-child" style="--transform: none;">
+                        <div class="marquee-row"><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/audi.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/bmw.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/ferrari.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/fiat.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/mercedes.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/tesla.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/toyota.png" alt=""><img class="marquee-image"
+                                src="./assets/engine/style/grapichs/icon/volswagen.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="rfm-marquee"
+                style="--play: running; --direction: normal; --duration: 38.4s; --delay: 0s; --iteration-count: infinite; --min-width: 100%;">
+                <div class="rfm-child" style="--transform: none;">
+                    <div class="marquee-row"><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/audi.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/bmw.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/ferrari.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/fiat.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/mercedes.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/tesla.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/toyota.png" alt=""><img class="marquee-image"
+                            src="./assets/engine/style/grapichs/icon/volswagen.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script>
+        const video = document.getElementById('video-sfondo');
+        const videoSrc = './videos/IVSOQM_GT-Ferrari_Gamma_Copertina_Short_WOJVWN-4300.m3u8';
+
+        if (Hls.isSupported()) {
+            const hls = new Hls();
+            hls.loadSource(videoSrc);
+            hls.attachMedia(video);
+            hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                video.play();
+            });
+        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            video.src = videoSrc;
+            video.addEventListener('loadedmetadata', function () {
+                video.play();
+            });
+        }
+    </script>
+    -->
+    <script src="../../assets/engine/javascript/language_function.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const brandCards = document.querySelectorAll(".brand-card");
+
+            // Aggiungiamo l'animazione al passaggio del mouse
+            brandCards.forEach(card => {
+                card.addEventListener("mouseenter", function () {
+                    card.classList.add("hovered");
+                });
+                card.addEventListener("mouseleave", function () {
+                    card.classList.remove("hovered");
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
