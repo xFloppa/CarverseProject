@@ -17,7 +17,7 @@ body {
 
 header {
     width: 100%;
-    text-align: center; /* Centro il contenuto del titolo */
+    text-align: center; /* Centro il contenuto del titolo -*/
     padding: 20px;
     background-color: #181818;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
